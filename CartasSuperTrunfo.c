@@ -8,7 +8,9 @@ int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
   // Área para entrada de dados
-
+  // Carta 1
+  char nome1 [20] = "A";
+  char codigo
   // Área para exibição dos dados da cidade
 
 return 0;
