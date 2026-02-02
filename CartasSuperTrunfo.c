@@ -18,7 +18,7 @@ int main() {
   int pontosturisticos1 = 10;
   
   //Carta 2
-  char nome2 [20] = "B";
+    char nome2 [20] = "B";
     char codigodacarta2 [4] = "B02";
     char cidade2 [20] = "Manaus";
     int populacao2 = 2219580;
@@ -27,7 +27,7 @@ int main() {
     int pontosturisticos2 = 7;
   // Área para exibição dos dados da cidade
   // Carta 1
-  printf("Carta 1:\n");
+    printf("Carta 1:\n");
     printf("Nome: %s\n", nome1);
     printf("Codigo da Carta: %s\n", codigodacarta1);
     printf("Cidade: %s\n", cidade1);
