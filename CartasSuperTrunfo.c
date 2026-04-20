@@ -63,25 +63,37 @@ int main() {
     printf("Super Poder: %.2f\n", superpoder2);
     printf("\n");
 
-    //Comparando as cartas
-    printf("Comparação entre as cartas!\n");
+    //Comparação dos super poderes das cartas
+    printf("***Comparação dos Atributos***\n");
+
+    //Comparações das cartas
     int resultado1, resultado2, resultado3, resultado4, resultado5, resultado6, resultado7;
-    resultado1 = (populacao1 > populacao2) ?
-    printf("População: Carta 1 venceu\n") : printf("População: Carta 2 é maior que Carta 1\n");
-    resultado2 = (area1 > area2) ?
-    printf("Área: Carta 1 venceu\n") : printf("Área: Carta 2 é maior que Carta 1\n");
-    resultado3 = (pib1 > pib2) ?
-    printf("PIB: Carta 1 venceu\n") : printf("PIB: Carta 2 é maior que Carta 1\n");
-    resultado4 = (pontosturisticos1 > pontosturisticos2) ?
-    printf("Pontos Turísticos: Carta 1 venceu\n") : printf("Pontos Turísticos: Carta 2 é maior que Carta 1\n");
-    resultado5 = (densidade1 > densidade2) ?
-    printf("Densidade Demográfica: Carta 1 venceu\n") : printf("Densidade Demográfica: Carta 2 venceu\n");
-    resultado6 = (pibpercapita1 > pibpercapita2) ?
-    printf("PIB per capita: Carta 1 venceu\n") : printf("PIB per capita: Carta 2 é maior que Carta 1\n");
-    resultado7 = (superpoder1 > superpoder2) ?
-    printf("Super Poder: Carta 1 venceu\n") : printf("Super Poder: Carta 2 é maior que Carta 1\n");
+    resultado1 = populacao1 > populacao2;
+    resultado2 = area1 > area2;
+    resultado3 = pib1 > pib2;
+    resultado4 = pontosturisticos1 > pontosturisticos2;
+    resultado5 = densidade1 > densidade2;
+    resultado6 = pibpercapita1 > pibpercapita2;
+    resultado7 = superpoder1 > superpoder2;
+    printf("O resultado da comparação sendo 1 significa que a resposta é Sim, se for 0 significa que a resposta é Não.\n\n");
+
+    //Exibição dos resultados
+    printf("População da Carta 1 é maior que a Carta 2?: %d\n", resultado1);
+    if (resultado1) printf("Carta 1 venceu!\n\n");
+    printf("Área da Carta 1 é maior que a Carta 2?: %d\n", resultado2);
+    if (resultado2) printf("Carta 1 venceu!\n\n");
+    printf("PIB da Carta 1 é maior que a Carta 2?: %d\n", resultado3);
+    if (resultado3) printf("Carta 1 venceu!\n\n");
+    printf("Pontos Turísticos da Carta 1 é maior que a Carta 2?: %d\n", resultado4);
+    if (resultado4) printf("Carta 1 venceu!\n\n");
+    printf("Densidade Demográfica da Carta 1 é maior que a Carta 2?: %d\n", resultado5);
+    if (resultado5) printf("Carta 1 venceu!\n\n"); else printf("Carta 2 venceu!\n\n");
+    printf("PIB per capita da Carta 1 é maior que a Carta 2?: %d\n", resultado6);
+    if (resultado6) printf("Carta 1 venceu!\n\n");
+    printf("Super Poder da Carta 1 é maior que a Carta 2?: %d\n\n", resultado7);
+    if (resultado7) printf("Carta 1 venceu!\n\n"); 
+    printf("A Carta 1 venceu o jogo de Super Trunfo por vencer em mais atributos e super poder!\n\n");
     printf("E aí? Gostou do meu jogo? Nem sei se alguém vai ver isso... mas me diverti fazendo esse código!\n");
     printf("Até a próxima! :)");
-
-return 0;
-} 
+    return 0;
+}
