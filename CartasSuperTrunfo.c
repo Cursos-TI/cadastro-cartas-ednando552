@@ -47,7 +47,8 @@ int main() {
     printf("PIB per capita: %.2f\n", pibpercapita1);
     printf("Densidade Demográfica: %.2f hab/km²\n", densidade1);
     printf("PIB per capita: %.2f reais\n", pibpercapita1);
-    
+    printf("Super Poder: %.2f\n", superpoder1);
+    printf("\n");
     //Carta 2
     printf("Carta 2\n");
     printf("Estado: %s\n", nome2);
@@ -59,5 +60,28 @@ int main() {
     printf("Pontos Turisticos: %d\n", pontosturisticos2);
     printf("Densidade Demográfica: %.2f hab/km²\n", densidade2);
     printf("PIB per capita: %.2f reais\n", pibpercapita2);
+    printf("Super Poder: %.2f\n", superpoder2);
+    printf("\n");
+
+    //Comparando as cartas
+    printf("Comparação entre as cartas!\n");
+    int resultado1, resultado2, resultado3, resultado4, resultado5, resultado6, resultado7;
+    resultado1 = (populacao1 > populacao2) ?
+    printf("População: Carta 1 venceu\n") : printf("População: Carta 2 é maior que Carta 1\n");
+    resultado2 = (area1 > area2) ?
+    printf("Área: Carta 1 venceu\n") : printf("Área: Carta 2 é maior que Carta 1\n");
+    resultado3 = (pib1 > pib2) ?
+    printf("PIB: Carta 1 venceu\n") : printf("PIB: Carta 2 é maior que Carta 1\n");
+    resultado4 = (pontosturisticos1 > pontosturisticos2) ?
+    printf("Pontos Turísticos: Carta 1 venceu\n") : printf("Pontos Turísticos: Carta 2 é maior que Carta 1\n");
+    resultado5 = (densidade1 > densidade2) ?
+    printf("Densidade Demográfica: Carta 1 venceu\n") : printf("Densidade Demográfica: Carta 2 venceu\n");
+    resultado6 = (pibpercapita1 > pibpercapita2) ?
+    printf("PIB per capita: Carta 1 venceu\n") : printf("PIB per capita: Carta 2 é maior que Carta 1\n");
+    resultado7 = (superpoder1 > superpoder2) ?
+    printf("Super Poder: Carta 1 venceu\n") : printf("Super Poder: Carta 2 é maior que Carta 1\n");
+    printf("E aí? Gostou do meu jogo? Nem sei se alguém vai ver isso... mas me diverti fazendo esse código!\n");
+    printf("Até a próxima! :)");
+
 return 0;
 } 
